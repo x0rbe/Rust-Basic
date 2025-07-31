@@ -61,7 +61,7 @@ jobs:
                   # 保存新的 JSON 文件
                   echo "$new_json" > $summary_file
 
-                  # 打印新的 JSON 文件到终端
+                  # 打印新的 JSON 文件到终
                   cat $summary_file
             - name: Post summary JSON to remote API
               run: |
